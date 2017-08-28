@@ -1,0 +1,86 @@
+/**
+ * Created by PhpStorm
+ * Author:Rico
+ * Date: 2017/8/26 0026
+ * Time: 11:17
+ */
+.star{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    line-height: 16px;
+    vertical-align: middle;
+    text-align: center;
+    color: crimson;
+}
+.pass{
+    background: url("../images/validate_pass_2.gif") no-repeat center;
+}
+.notpass{
+    background: url("../images/validate_notpass_2.gif") no-repeat center;
+}
+.loading {
+    background: url("../images/loading_2.gif") no-repeat left center;
+}
+#inform p span{
+    padding:0 0 0 20px;
+    font-size:14px;
+}
+.list-div{
+    padding: 0;
+    width:100%;
+}
+.list-div table{
+    width:100%;
+    border:1px solid #ebebeb;
+}
+.list-div th{
+    background: #e5f6fe;
+    color: #111;
+    line-height:2;
+}
+.list-div td{
+    background: #f4fafb none repeat scroll 0 0;
+    border-bottom:1px solid #e8e8e8;
+    border-right:1px solid #e8e8e8;
+    line-height:22px;
+    text-align: center;
+    font-size:14px;
+}
+th.group-title{
+    text-align: left;
+}
+th.title{
+    font-weight: normal;
+    font-size:16px;
+}
+th.title a{
+    text-decoration: none;
+    color: #111;
+}
+
+/*分页*/
+#main  .page{
+    float: right;
+}
+.page .page_span{
+    display: inline-block;
+    width:30px;
+    height:25px;
+    line-height:25px;
+    text-align: center;
+    border:1px solid #eee;
+    background: #ccc;
+}
+.page .page_span .page_data{
+    display: block;
+    color: #049;
+}
+.page .page_span a:hover{
+    background: #999;
+    color: #eee;
+}
+.page a.selected{
+    background: #999;
+    color: #eee;
+}

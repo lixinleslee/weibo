@@ -1,0 +1,38 @@
+/**
+ * Created by PhpStorm
+ * Author:Rico
+ * Date: 2017/8/26 0026
+ * Time: 22:28
+ */
+body {
+    background: #95B8E7;
+}
+ul,ol{
+    list-style: none;
+}
+.submenu-div{
+    background: red;
+}
+.submenu-div .member_info{
+    float: left;
+    width:200px;
+}
+.submenu-div ul{
+    
+}
+.submenu-div ul li{
+    float: right;
+    display: inline-block;
+    margin: 3px 0;
+    padding: 0 10px;
+    border-left: 1px solid #fff;
+
+}
+.submenu-div ul li a{
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+}
+.submenu-div ul li a:hover{
+    color: #f5c29a;
+}

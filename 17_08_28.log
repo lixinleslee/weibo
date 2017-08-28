@@ -1,0 +1,5 @@
+[ 2017-08-28T10:00:09+08:00 ] 192.168.0.100 /weibo/Public/Admin/image/jump_error.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+

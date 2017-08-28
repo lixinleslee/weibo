@@ -1,0 +1,43 @@
+#main .main_left{
+    width:650px;
+    min-height: 800px;
+    height: auto;
+    float: left;
+    font-size:14px;
+    padding:0 20px;
+}
+#main .main_right{
+    width:269px;
+    min-height:800px;
+    float: right;
+    background: #f7f7f7;
+    border-left:1px solid #eee;
+}
+#main .main_left .top{
+    background: #fff;
+    padding:10px;
+}
+#main .main_left .top dl{
+    
+}
+#main .main_left .top dl dt{
+    width:200px;
+    float: left;
+}
+#main .main_left .top dl dt img{
+    border:0;
+    display: block;
+}
+#main .main_left .top dl dd{
+    float: left;
+    display: block;
+    width:350px;
+    margin:20px 0 10px 20px;
+}
+#main .main_left .top .clearfix::after{
+    clear: both;
+    content: ".";
+    display: block;
+    height:0;
+    visibility: hidden;
+}

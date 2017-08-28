@@ -1,0 +1,112 @@
+#main{
+    clear: both;
+}
+#main .main_left{
+    float: left;
+    width:200px;
+    height: 760px;
+    padding:20px 10px;
+}
+#main .main_left ul{
+    text-align: center;
+}
+#main .main_left ul li {
+    height: 35px;
+    line-height: 35px;
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+#main .main_left ul li a{
+    display: block;
+    text-decoration: none;
+    color: #888;
+}
+#main .main_left ul li a.selected{
+    background: #999;
+    color: #fff;
+}
+#main .main_left ul li a:hover{
+    background: #999;
+    color: #fff;
+}
+
+#main .main_right{
+    float: right;
+    padding:20px 10px;
+    width:720px;
+    height: 760px;
+    background: #fff;
+}
+#main .main_right .personal_setting h4{
+    height:30px;
+    line-height:30px;
+    border-bottom: 1px solid #eee;
+}
+#main .main_right .personal_setting label{
+    display: inline-block;
+    width: 80px;
+    
+}
+#main .main_right .personal_setting  .text{
+    width:300px;
+    height:25px;
+    line-height:25px;
+    margin:10px 0;
+    border:1px solid #eee;
+}
+#main .main_right .personal_setting  .area{
+    height: 100px;
+    resize: none;
+}
+#main .main_right .personal_setting  .label_area{
+    position: relative;
+    top:-60px;
+}
+#main .main_right .personal_setting  .changeSubmit{
+    margin:0 0 0 85px;
+}
+
+
+#main .main_right .container .faceLeft{
+    float: left !important;
+    width:500px !important;
+}
+#main .main_right .container .faceRight{
+    float: left !important;
+    width:100px !important;
+}
+#main .main_right .container .docs-buttons .btn-group{
+    float: left !important;
+    width: 240px !important;
+}
+#main .main_right .container .row .docs-buttons .second-group{
+    width:200px !important;
+}
+#main .main_right .container .submitBtn{
+    margin:3px 0 0 0;
+}
+#main .main_right .mention{
+    margin:10px 0 0 10px;
+}
+#main .main_right .count{
+    color: #004499;
+    font-weight: bold;
+}
+#main .main_right .content{
+    text-indent: 4px;
+    color: #999;
+    margin:10px 0 10px 0;
+}
+#main .main_right .content .red{
+    color: red;
+    cursor: pointer;
+}
+#main .main_right .content .green{
+    color: #999;
+    cursor: pointer;
+}
+#main .main_right .content .read {
+    outline: none;
+    text-decoration: none;
+}

@@ -1,0 +1,501 @@
+#main .main_left{
+    width:650px;
+    min-height: 800px;
+    height: auto;
+    float: left;
+    font-size:14px;
+    padding:0 20px;
+}
+#main .main_right{
+    width:269px;
+    min-height:800px;
+    float: right;
+    background: #f7f7f7;
+    border-left:1px solid #eee;
+}
+#main .main_left .formDiv .left{
+    padding:30px 0 0 0 ;
+    float: left;
+
+}
+#main .main_left .formDiv .right{
+    padding:30px 0 0 0;
+    float: right;
+    font-size:13px;
+    color: #ccc;
+
+}
+#main .main_left .formDiv .right .text_number{
+    font-size:14px;
+    font-family: Gabriola;
+    color: #6b9cde;
+}
+#main .main_left .text{
+    width:632px;
+    height:80px;
+    font-size:16px;
+    resize: none;
+    background: #fff;
+    padding:8px;
+    border:1px solid #eee;
+}
+#main .main_left .emotion{
+    background: url("../image/emotion.gif") no-repeat left center;
+    text-indent: 26px;
+    padding:0;
+    display: inline-block;
+    width:60px;
+}
+
+#main .main_left .weibo_button{
+    float: right;
+    margin:5px 0 0 0;
+}
+
+#main .main_left .pic_btn{
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+#main .main_left .imgBox{
+    width:560px;
+    min-height:200px;
+    border:1px solid #eee;
+    background: #fff;
+}
+#main .main_left .imgBox .pekeupload-btn-file{
+    background: #f6f6f6  linear-gradient(to bottom, #f6f6f6  5%, #f6f6f6  100%) repeat scroll 0 0 !important;
+    box-shadow: 0 -3px 7px 0 #f6f6f6 inset !important;
+    color: #999 !important;
+    border: 1px solid #f6f6f6  !important;
+    text-shadow: 0 1px 0 #f6f6f6 !important;
+    margin:5px 0 0 5px !important;
+}
+#main .main_left .imgBox .pekeupload-btn-file:hover{
+    background: #eee linear-gradient(to bottom, #eee 5%, #eee 100%) repeat scroll 0 0 !important;
+    box-shadow: 0 -3px 7px 0 #eee inset !important;
+    color: #999 !important;
+    border: 1px solid #eee !important;
+    text-shadow: 0 1px 0 #eee
+}
+#main .main_left .imgBox .pekecontainer{
+    /*width: 200px !important;*/
+    /*background: red;*/
+}
+#main .main_left .imgBox .pekecontainer .pekerow{
+    margin: 5px !important;
+    width:110px !important;
+    height: 110px !important;
+    float: left;
+}
+#main .main_left .imgBox .pekecontainer .pekerow .thumbnail{
+    width:108px !important;
+    height:108px !important;
+    border: 1px solid #eee;
+}
+#main .main_left .imgBox .pekecontainer .filename{
+    display: none;
+}
+#main .main_left .imgBox .pekecontainer .pkdelfile {
+    height:20px !important;
+    margin:90px 0 0 0;
+}
+#main .main_left .imgBox .pekecontainer .pkdelfile a{
+    text-decoration: none;
+    display: none;
+}
+#main .main_left .pic_close_btn{
+    position: absolute;
+    top:5px;
+    right:10px;
+    cursor: pointer;
+}
+#main .weibo_content{
+    clear: both;
+}
+#main .weibo_content .weibo_content_ul{
+    height:35px;
+    border-bottom: 1px solid #eee;
+    
+}
+#main .weibo_content .weibo_content_ul li{
+    float: left;
+    height:35px;
+    display: inline-block;
+    margin:0 5px 0 0;
+    background: #eee;
+    text-align: center;
+    
+}
+.clearfix::after{
+    clear: both;
+    display: block;
+    content: ".";
+    height:0;
+    visibility: hidden;
+}
+#main .weibo_content .weibo_content_ul li a{
+    display: block;
+    height:35px;
+    line-height:35px;
+    width:100px;
+    text-decoration: none;
+    color: #369;
+    outline: none;
+}
+#main .weibo_content .weibo_content_ul li a.selected{
+    background: #fff;
+    border:1px solid #eee;
+    border-bottom: 1px solid #fff;
+}
+#main .weibo_content .weibo_content_ul li a:hover{
+    background: #fff;
+    border:1px solid #eee;
+    border-bottom: 1px solid #fff;
+}
+
+#main .content_list{
+    display: block;
+    height:100%;
+    overflow: hidden;
+    zoom: 1;
+}
+#main .content_list .pt_ul{
+    overflow: hidden;
+    display: block;
+    zoom: 1;
+}
+#main .content_list .pt_ul .pt_li{
+    padding:10px;
+    border-radius: 6px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.15);
+    background: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: block;
+}
+#main .content_list .pt_ul .reBroad{
+    background: #eee !important;
+}
+#main .content_list .pt_ul .pt_li a{
+    outline: none;
+}
+#main .content_list .pt_ul .pt_li .atusername{
+    text-decoration: none;
+    color: #ff4136;
+}
+#main .content_list .text_box{
+    margin:0 0 10px 0;
+}
+#main .content_list .title{
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 150%;
+}
+#main .content_list .pt_ul .S_txt2{
+    line-height:23px;
+    max-height:46px;
+    overflow: hidden;
+}
+#main .content_list .pic_m3{
+    display: block;
+    text-align: center;
+    padding:3px 3px 3px 27px;
+    overflow: hidden;
+}
+#main .content_list .clearBoth{
+    clear: both;
+}
+#main .content_list .pic_m3 .unlog_pic{
+    display: inline-block;
+    margin: 5px;
+    float: left;
+    height:108px;
+    width:180px;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+#main .content_list .pic_m3 .oneImagBig{
+    display: inline-block;
+    margin: 5px;
+    float: left;
+    height:500px;
+    width:500px;
+    overflow: hidden;
+    cursor: zoom-out;
+}
+#main .content_list .pic_m3 .mutilImgBig{
+    display: inline-block;
+    margin: 5px;
+    float: left;
+    min-height:640px;
+    width:500px;
+    overflow: hidden;
+ }
+#main .content_list .pic_m3 .mutilImgBig .bigImg .piccut_v{
+    cursor: zoom-out;
+}
+#main .content_list .pic_m3  .tag .tag_ul{
+    background: #fff;
+    display: inline-block;
+    width:500px;
+    height:25px;
+    padding:0 0 0 5px;
+}
+
+#main .content_list .pic_m3 .tag .tag_ul li{
+    float: left;
+    width:70px;
+    height:25px;
+    line-height:25px;
+    margin:0 5px 0 0;
+}
+#main .content_list .pic_m3  .tag .tag_ul .S_li_2{
+    width:85px;
+}
+#main .content_list .pic_m3  .tag .tag_ul li span{
+    display: block;
+}
+#main .content_list .pic_m3  .tag .tag_ul li .S_text1{
+    position: relative;
+    text-indent: 5px;
+    display: block;
+    height:25px;
+    text-decoration: none;
+    color: #555;
+    padding: 0 0 0 5px;
+}
+#main .content_list .pic_m3  .tag .tag_ul li .S_text2{
+    padding: 0 0 0 20px;
+}
+#main .content_list .pic_m3  .tag .tag_ul li .S_zoom_out .I_zoom_out{
+    position: absolute;
+    left:0;
+    top:0;
+    width:25px;
+    height:25px;
+    display: block;
+    background: url("../image/zoom_out.gif") no-repeat left center;
+}
+#main .content_list .pic_m3  .tag .tag_ul li .S_zoom_in .I_zoom_in{
+    position: absolute;
+    left:0;
+    top:0;
+    width:25px;
+    height:25px;
+    display: block;
+    background: url("../image/zoom_in.gif") no-repeat left center;
+}
+#main .content_list .pic_m3  .tag .tag_ul li .S_text1:hover,#main .content_list .pic_m3  .tag .tag_ul li .I_zoom_out{
+    color: #ff4136;
+}
+#main .content_list .pic_m3 .mutilImgBig .smallest{
+    cursor: pointer;
+}
+#main .content_list .pic_m3 .mutilImgBig .smallest .mutilImg_s{
+    float: left;
+    margin:2px;
+    padding:5px;
+    border: 1px solid #eee;
+    background: #f0f0fa;
+    cursor: pointer;
+}
+#main .content_list .pic_m3 .mutilImgBig .smallest .mutilImg_s:hover{
+    background: #CC2222;
+}
+#main .content_list .pic_m3 .mutilImgBig .smallest .mutilImg_s .piccut_v{
+    display: block;
+    width:80px;
+    height:80px;
+    border:0;
+}
+#main .content_list .subinfo_box{
+    padding:5px;
+}
+#main .content_list .subinfo_box .subinfo_face{
+    position: relative;
+    bottom: 2px;
+}
+#main .content_list .subinfo_box span{
+    display: inline-block;
+}
+#main .content_list .subinfo_box .subinfo{
+    margin:0 5px 0 5px;
+}
+#main .content_list .subinfo_box .subinfo_rgt{
+    color: #555;
+    float: right;
+    display: inline-block;
+    width:50px;
+    text-align: center;
+    padding:0 5px 0 5px;
+}
+
+#main .content_list .subinfo_box .Su_border{
+    border-right: 1px solid #eee;
+    position: relative;
+}
+#main .content_list .subinfo_box .subinfo_rgt em{
+    font-style: normal;
+}
+#main .content_list .subinfo_box .subinfo_rgt .arrow_up{
+    /*display: block;*/
+    /*width:32px;*/
+    /*height:32px;*/
+    /*float: right;*/
+    /*z-index: 1000;*/
+    /*background: url("../image/arrow_triangle-up.gif") no-repeat right center;*/
+}
+#main .content_list .subinfo_box .subinfo_rgt .commend_block{
+    display: inline-block;
+}
+#reBroadCast .reBroadSourceTitle{
+    background: #e2e2e2;
+    display: inline-block;
+    width:560px;
+    height:25px;
+    line-height:25px;
+    font-size:13px;
+    margin:0 0 10px 0;
+}
+#reBroadCast .reBroadSourceTitle a{
+    text-decoration: none;
+    margin:0 0 0 10px;
+}
+#reBroadCast .reBroadArea{
+    width:550px;
+    height:100px;
+    resize: none;
+    padding: 5px;
+}
+#main #loadMore{
+    font-size: 10px;
+    height:20px;
+    line-height:20px;
+    text-align: center;
+    background: #FFFFFF;
+    cursor: pointer;
+    padding: 0;
+}
+#main #loadMore .text{
+    height:20px;
+    line-height:20px;
+    padding: 0;
+    margin:0;
+    border:0;
+    background: #FFFFFF;
+    font-style: normal;
+}
+
+#main .main_left .pt_ul .pt_li .commend_div{
+    background: #eee;
+}
+#main .main_left .pt_ul .pt_li .subinfo_box .weibo_del_span_clicked{
+    background: url("../image/loading_2.gif") no-repeat right center;
+}
+#main .main_left .pt_ul .pt_li .commend_div .comment_face{
+    margin:0 0 10px 0;
+}
+#main .main_left .pt_ul .pt_li .commend_div a{
+    text-decoration: none;
+    color: indianred;
+}
+#main .main_left .pt_ul .pt_li .commend_div .comment_pulish_box{
+    padding:10px;
+    border-bottom: 1px solid #aaaaaa;
+}
+#main .main_left .pt_ul .pt_li .commend_div .comment_pulish_box .commend_text{
+    resize: none;
+    width:590px;
+    background: #fff;
+    border:1px solid #eee;
+    padding:10px;
+}
+#main .main_left .pt_ul .pt_li .commend_div .comment_pulish_box .commend_text .show{
+    height:30px;
+    width:600px;
+}
+#main .main_left .pt_ul .pt_li .commend_div .comment_pulish_box .commend_text .commend_content{
+    resize: none;
+    width:100%;
+    height:50px;
+    background: #fff;
+    border:1px solid #eee;
+}
+
+#main .main_left .commend_button{
+    float: right;
+    margin:5px 0 0 0;
+}
+#main .main_left .pt_ul .pt_li .comment_load{
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    padding: 12px 0 0 0 ;
+}
+#main .main_left .pt_ul .pt_li .commend_div .list_li{
+    padding: 5px;
+    margin: 0 0 2px 0;
+    border-bottom: 1px dashed #999;
+}
+#main .main_left .pt_ul .pt_li .commend_div .WB_face_comment{
+    float: left;
+    width:100px;
+}
+
+#main .main_left .pt_ul .pt_li .commend_div .root_comment_con{
+    float: left;
+    width:510px;
+}
+#main .main_left .pt_ul .pt_li .commend_div .root_comment_con .root_comment_text{
+    padding: 0 3px 0 3px;
+}
+#main .main_left .pt_ul .pt_li .commend_div .root_comment_con .root_comment_info{
+    padding: 0 3px 0 3px;
+}
+#main .main_left .pt_ul .pt_li .commend_div .root_comment_con .root_comment_info .comment_fun{
+    float: right;
+}
+#main .main_left .pt_ul .pt_li .commend_div .root_comment_con .root_comment_info .comment_fun ul {
+
+}
+#main .main_left .pt_ul .pt_li .commend_div .root_comment_con .root_comment_info .comment_fun ul li{
+    float: left;
+    display: inline-block;
+    margin:0 5px 0 5px;
+}
+#main .main_left .pt_ul .pt_li .commend_div .root_comment_con .root_comment_info .comment_fun ul li a{
+    display: block;
+    color: #049;
+}
+#main .main_left .pt_ul .pt_li .commend_div .root_comment_con .root_comment_info .comment_time{
+    float: left;
+}
+
+#main #loadMore img{
+    margin:0 0 0 5px;
+}
+#main .main_right dl{
+}
+#main .main_right dl dt{
+    display: block;
+    width:120px;
+    height:120px;
+    margin:30px auto 10px auto;
+ }
+#main .main_right dl dt img{
+    width:120px;
+    height:120px;
+    border:0;
+    display: block;
+
+}
+#main .main_right dl dd{
+    text-align: center;
+    font-size:13px;
+    border: 0;
+}
+#main .main_right dl dd a{
+    text-decoration: none;
+    outline: none;
+}

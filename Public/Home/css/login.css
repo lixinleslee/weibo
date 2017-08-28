@@ -1,0 +1,139 @@
+/*修改CheckBox选中后的背景颜色*/
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid #cccccc !important;
+    background: #999 !important;
+    font-weight: normal !important;
+    color: #ffffff !important;
+}
+.ui-icon-background,
+.ui-state-active .ui-icon-background {
+    border: #999 !important;
+    background-color: #ffffff !important;
+}
+/*
+修改UI对话框样式
+*/
+.ui-dialog-titlebar{
+    background: steelblue !important;
+}
+.ui-button{
+    background: steelblue !important;
+}
+/*
+修改日历样式
+*/
+.ui-datepicker-header{
+    background: steelblue !important;
+}
+/***/
+*{
+    margin:0;
+    padding: 0;
+}
+#main{
+    text-align: center;
+    position: relative;
+    top:200px;
+}
+#main #login_form .text{
+    width:250px;
+    height:25px;
+    line-height:25px;
+    background: #555;
+    border: 1px solid #999;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding:13px;
+    font-size: 18px;
+    font-family: Tahoma;
+}
+#main #login_form .submit{
+    height:52px;
+    position: relative;
+    top:-4px;
+}
+#login_form .username,#login_form .password{
+    display: inline-block;
+    position: relative;
+}
+#login_form .username label.error,#login_form .password label.error{
+    color: red;
+    position: absolute;
+    top:17px;
+    right: 0;
+}
+#login .buttom .auto_login{
+    float: left;
+}
+#login .buttom{
+    text-align: right;
+    width:480px;
+    margin:0 auto;
+}
+#login .buttom a{
+    color: royalblue;
+    font-size:14px;
+    text-decoration: none;
+
+}
+#login .buttom a:hover{
+    text-decoration: underline;
+    color: darkmagenta;
+}
+
+#footer{
+    width:100%;
+    text-align: center;
+    background: #000000;
+    margin:0 auto;
+    position: absolute;
+    bottom:0;
+    opacity: 0.9;
+    -moz-opacity: 0.9;
+    filter: alpha(opacity=40);
+}
+.footer{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+}
+.show_errors{
+    width:90%;
+    margin:0 0 0 20px;
+    color: crimson;
+}
+.show_errors li{
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    font-family:Tahoma;
+}
+#register .text{
+    width:220px;
+    height:25px;
+    background-color: #fff;
+    border:1px solid #cccccc;
+    border-radius: 3px;
+    font-size:14px;
+    margin:2px 0;
+}
+
+#verify_form img{
+    margin:3px 0 0 0;
+}
+#verify_form .changeImg{
+    font-size:12px;
+}
+#verify_form img{
+    cursor: pointer;
+}
+#register .ui-dialog-content,#register .ui-widget-content{
+    width:100% !important;
+}

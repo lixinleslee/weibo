@@ -1,0 +1,269 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td{
+    padding:0;
+    margin:0;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid #cccccc !important;
+    background: #999 !important;
+    font-weight: normal !important;
+    color: #ffffff !important;
+}
+.ui-icon-background,
+.ui-state-active .ui-icon-background {
+    border: #999 !important;
+    background-color: #ffffff !important;
+}
+
+.ssi-uploadBoxOpened {
+    border: none !important;
+}
+.ssi-uploadNoDropZone {
+    border: none !important;
+}
+ul,ol,li{
+    font-style: normal;
+    font-weight: normal;
+    list-style: none;
+}
+#bg{
+    width: 100%;
+    height:100%;
+    background: #e9e9e9;
+}
+#header{
+    width:100%;
+    height:48px;
+    background: #4c4c4c;
+    position: fixed;
+    top:0;
+    color: #f6f6f6;
+    z-index: 9999;
+    font-family: Aharoni;
+}
+a{
+    outline: none;
+}
+#header .header_main{
+    width:90%;
+    height:48px;
+    margin:0 auto;
+}
+#header .header_main .header_log{
+    float: left;
+}
+#header .header_main .header_log a{
+    display: block;
+    text-decoration: none;
+    height:48px;
+    line-height:48px;
+    font-size: 20px;
+    color: #999;
+}
+#header .header_main .header_log a:hover{
+    background: #eee;
+}
+#header .header_main .header_list{
+    margin:0 0 0 10px;
+    float: left;
+}
+#header .header_main .header_list ul li{
+    width:60px;
+    height:48px;
+    line-height:48px;
+    display: block;
+    margin:0 0 0 10px;
+    float: left;
+}
+#header .header_main .header_list ul li a{
+    text-decoration: none;
+    display: block;
+    letter-spacing: 3px;
+    color: #eee;
+    text-align: center;
+}
+#header .header_main .header_list ul li a:hover{
+    background: #999;
+}
+
+#header .header_main .header_right{
+    float: right;
+}
+#header .header_main .header_right .header_search{
+    width:230px;
+    float: left;
+    height:48px;
+    line-height:48px;
+    position: relative;
+}
+#header .header_main .header_right .header_search input{
+    width:220px;
+    height:25px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+}
+#header .header_main .header_right .header_search a{
+    position: absolute;
+    top:0;
+    right:10px;
+
+}
+#header .header_main .header_member{
+    height: 48px;
+    line-height:48px;
+    float: right;
+    position: relative;
+}
+#header .header_main .header_member .notice{
+    position: absolute;
+    background: #fafafa;
+    border: 1px solid #e2e2e2;
+    color: #2b2b2b;
+    font-family: 黑体;
+    top:48px;
+    left:-120px;
+    height:30px;
+    line-height:30px;
+}
+#header .header_main .header_member .notice .close{
+    display: inline-block;
+    cursor: pointer;
+    width:10px;
+}
+#header .header_main .header_member ul{
+
+}
+#header .header_main .header_member ul li{
+    width:60px;
+    height:48px;
+    line-height:48px;
+    display: block;
+    margin:0 0 0 10px;
+    float: left;
+    letter-spacing: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+#header .header_main .header_member ul .info{
+    font-size:12px;
+    font-weight: normal;
+}
+#header .header_main .header_member ul li a{
+    text-decoration: none;
+    display: block;
+    color: #eee;
+    text-align: center;
+}
+#header .header_main .header_member ul .app:hover{
+    background: #999;
+}
+#header .header_main .header_member ul li a:hover{
+    background: #999;
+}
+#header .header_member ul .app{
+    position: relative;
+}
+#header .header_member ul .app .list{
+    display: none;
+    border:1px solid #eee;
+    background: #999;
+    color: #fff;
+    width:120px;
+    border-top:none;
+    position: absolute;
+    top:48px;
+    left:-60px;
+}
+#header .header_member ul .app .list dd a{
+    height:30px;
+    line-height:30px;
+    color: #fff;
+    text-align: left;
+    text-indent: 4px;
+}
+#header .header_member ul .app .list dd a em{
+    font-style: normal;
+}
+#header .header_member ul .app .list dd a em.red{
+    color: firebrick;
+}
+#header .header_member ul .app .list dd a:hover{
+    background: #eee;
+}
+#header .header_member ul .app .list .line{
+    border-top: 1px solid #eee;
+}
+#main{
+    width:960px;
+    min-height:800px;
+    background: #f0f0f0;
+    margin:48px auto 10px auto;
+    box-shadow: #e9e9e9;
+    overflow: hidden;
+    zoom: 1;
+}
+
+/*
+分页
+*/
+#main  .page{
+    float: right;
+}
+#main  .page .page_span{
+    display: inline-block;
+    width:30px;
+    height:25px;
+    line-height:25px;
+    text-align: center;
+    border:1px solid #eee;
+    background: #ccc;
+}
+#main  .page .page_span .page_data{
+    display: block;
+    color: #049;
+}
+#main  .page .page_span a:hover{
+    background: #999;
+    color: #eee;
+}
+#main .page a.selected{
+    background: #999;
+    color: #eee;
+}
+
+#footer{
+    height:48px;
+    width:100%;
+}
+.star{
+    display: inline-block;
+    width:20px;
+    height:25px;
+    line-height: 25px;
+    vertical-align: middle;
+    text-align: center;
+    color: crimson;
+}
+.pass{
+    background: url("../image/validate_pass_2.gif") no-repeat center;
+}
+.notpass{
+    background: url("../image/validate_notpass_2.gif") no-repeat center;
+}
+.inform_default{
+    background: url("../image/loading_2.gif") no-repeat left center;
+}
+.inform_fail{
+    background: url("../image/validate_notpass_2.gif") no-repeat left center;
+}
+.inform_success{
+    background: url("../image/validate_pass_2.gif") no-repeat left center;
+}
+#inform p span{
+    padding:0 0 0 20px;
+    font-size:14px;
+}
